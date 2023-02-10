@@ -20,6 +20,7 @@
 > **STEP-3:**  open the folder you are in in a text editor <br/>
 > **STEP-4:**  open the folder with `cmd` or `Git Bash` and write `npm start` <br/>
 > **STEP-5:**  to download the project as `.zip`  [here](https://github.com/cavidsuleyman/helpUS-hospital-project/archive/refs/heads/master.zip) click <br/>
+> **STEP-6:**  Click this link and watch the game [here](https://helpus-hospital.surge.sh/) <br/>
 
 
 ## Technology
