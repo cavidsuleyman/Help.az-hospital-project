@@ -15,7 +15,7 @@
 
 ## ## RULES OF USE
 
-> **STEP-1:** `https://github.com/cavidsuleyman/Football-Game-ScoreBoard-System.git` <br/>
+> **STEP-1:** `https://github.com/cavidsuleyman/helpUS-hospital-project.git` <br/>
 > **STEP-2:**  enter the `helpUS-hospital-project` folder that appears <br/>
 > **STEP-3:**  open the folder you are in in a text editor <br/>
 > **STEP-4:**  open the folder with `cmd` or `Git Bash` and write `npm start` <br/>
