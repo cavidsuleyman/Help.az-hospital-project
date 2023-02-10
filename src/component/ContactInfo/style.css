@@ -1,0 +1,44 @@
+.contact-info-side{
+    width: 30%;
+    height: 450px;
+    background: transparent;
+}
+.contact-info-side h4{
+    font-size: 20px;
+    color: #FF731D;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.contact-info-details-side{
+    width: 90%;
+    height: 400px;
+    background: transparent;
+    
+}
+.contact-info-side p{
+    text-align: justify;
+    color: #FF731D;
+}
+.contact-info-icon-details{
+    background: transparent;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info-icon{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contact-info-icon p{
+    text-indent: 10px;
+}

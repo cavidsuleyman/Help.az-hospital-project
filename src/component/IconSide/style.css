@@ -1,0 +1,40 @@
+.hero-side{
+    width: 80%;
+    height: 250px;
+    background: transparent ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.hero-card{
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+}
+.hero-icon{
+    color: #1746A2;
+    font-size: 50px;
+}
+.hero-card h1{
+    line-height: 60px;
+    color: #FF731D;
+}
+.hero-card p{
+    color: #FF731D;
+}
+
+@media screen and (max-width: 950px){
+   .hero-side{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+   }
+   .hero-side .hero-card{
+    width: 90%;
+    margin-top: 20px;
+   }
+}

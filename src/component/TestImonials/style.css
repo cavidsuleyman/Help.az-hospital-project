@@ -1,0 +1,95 @@
+.testimon-main{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+.testimon-main h1{
+    text-align: center;
+    color: #FF731D;
+}
+.testimon-main-cards{
+    width: 90%;
+    height: auto;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+.testimon-main-card{
+    width: calc(90% / 2 - 20px);
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.testimon-main-card:hover{
+    transform: translateY(-15px);
+}
+.testimon-details{
+    width: 80%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimon-details .testimon-image{
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.testimon-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #FF731D;
+}
+
+.testimon-title{
+    margin-right: 10px;
+}
+
+.testimon-name{
+    line-height: 70px;
+    font-size: 24px;
+}
+.testimon-title p{
+    color: #FF731D;
+    text-align: justify;
+}
+@media screen and (max-width: 750px){
+    .testimon-main-card{
+        width: 100%;
+    }    
+    .testimon-main-card .testimon-details{
+        width: 100%;
+    }
+    .testimon-details .testimon-title{
+        width: 1400px;
+    }
+    .testimon-title p{
+        width: 90%;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 550px){
+    .testimon-main-card{
+        flex-direction: column;
+        height: 400px;
+    }
+    .testimon-main-card .testimon-title .testimon-name,
+    .testimon-main-card .testimon-title p{
+        margin-left: 25px;
+    }
+}

@@ -1,0 +1,61 @@
+.contact-header{
+    width: 100%;
+    height: 250px;
+    margin-top: 80px;
+    background: url(./image/pngtree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #FF731D;
+}
+
+.contact-form-side{
+    width: 65%;
+    height: auto;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1020px){
+    .contact-form-side{
+        flex-direction: column;
+        width: 95%;
+        height: 900px;
+    }
+    .contact-map-side{
+        width: 80%;
+    }
+    .contact-map-side .map-side{
+        width: 90%;
+    }
+    .contact-info-side{
+        width: 70%;
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 850px){
+    
+    .form-main-details{
+        flex-direction: column;
+    }
+    .form-main-details .form-input-box{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .contact-map-side{
+        width: 90%;
+    }
+    .contact-map-side .map-side{
+        width: 100%;
+    }
+}

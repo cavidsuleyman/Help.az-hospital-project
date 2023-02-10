@@ -1,0 +1,28 @@
+.sevrice-search-side{
+    width: 100%;
+    height: auto;
+    /* background-color: yellow; */
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sevrice-search-side form{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.sevrice-search-side form input{
+    width: 40%;
+    height: 45px;
+    border-radius: 12px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #FF731D;
+    outline: none;
+}
+
+.sevrice-search-side form input::placeholder{
+    color: #FF731D;
+}

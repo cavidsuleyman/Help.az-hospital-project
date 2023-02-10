@@ -1,0 +1,21 @@
+.career-header{
+    width: 100%;
+    height: 250px;
+    margin-top: 80px;
+    background: url(./image/pngtree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #FF731D;
+}
+.career-search-side{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

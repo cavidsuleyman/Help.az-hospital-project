@@ -1,0 +1,47 @@
+.carusel-main-side{
+    max-width: 100%;
+}
+.firstcontentStyle{
+    width: 100%;
+    height: 650px;
+    background-image: url(./image/dentist_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 35px;
+    color: #FF731D;
+    position: relative;
+    user-select: none;
+}
+.bg-vaccine{
+    background-image: url(../MainCarusel/image/vaccine_bg.webp);
+}
+
+.bg-threpist{
+    background-image: url(../MainCarusel/image/physiotherapist-bg.webp);
+    background-position: center;
+}
+
+.carusel-btn{
+    width: 160px;
+    height: 50px;
+    background-color: #1746A2;
+    border-radius: 5px;
+    color: #FAFAFA;
+    font-size: 20px;
+    border: 1px solid #FAFAFA;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+.carusel-btn:hover{
+    background: #FF731D;
+}
+
+@media (max-width: 768px){
+    .carusel-main-side{
+        max-width: 100%;
+    }
+}

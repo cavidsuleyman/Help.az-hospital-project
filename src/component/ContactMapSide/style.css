@@ -1,0 +1,15 @@
+.contact-map-side{
+    width: 80%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-side{
+    width: 80%;
+    height: 450px;
+}

@@ -1,0 +1,128 @@
+.reserv-header{
+    width: 100%;
+    height: 250px;
+    margin-top: 80px;
+    background: url(./image/pngtree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #FF731D;
+}
+.reserv-form-side h4{
+    font-size: 20px;
+    color: #FF731D;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.reserv-form-side form{
+    width: 70%;
+    height: 450px;
+    background: transparent;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reserv-main-details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    transition: all 3ms ease-in-out;
+    margin-top: 30px;
+}
+.reserv-title{
+    display: block;
+    padding-bottom: 15px;
+    color: #FF731D;
+}
+.reserv-input-box{
+    width: 300px;
+}
+.reserv-input-box input{
+    width: 100%;
+    height: 35px;
+    color: #FF731D;
+    font-size: 14px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    outline: none;
+}
+.reserv-input-box select{
+    width: 100%;
+    height: 35px;
+    color: #FF731D;
+    font-size: 14px;
+    border: 1px solid grey;
+    outline: none;
+}
+.reserv-title-subject{
+    display: block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #FF731D;
+}
+.reserv-input-subject{
+    width: 100%;
+}
+.reserv-input-subject input{
+    width: 100%;
+    height: 40px;
+    color: #FF731D;
+    font-size: 14px;
+    border: 1px solid grey;
+    outline: none;
+    padding-left: 10px;
+}
+.reserv-title-textarea{
+    display: block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #FF731D;
+}
+.reserv-input-textarea textarea{
+    resize: none;
+    width: 100%;
+    height: 150px;
+    outline: none;
+    border: 1px solid grey;
+    padding-left: 10px;
+    color: #FF731D;
+    font-size: 14px;
+}
+.reserv-button{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    background: transparent;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.reserv-button button{
+    width: 100px;
+    height: 35px;
+    background: #1746A2;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+.reserv-button button:hover{
+    background: #FF731D;
+}
+
+@media only screen and (max-width: 800px){
+    .reserv-main-details{
+        flex-direction: column;
+        transition: all 3ms ease-in-out;
+        height: 250px;
+    }
+    .reserv-form-side{
+        height: 750px;
+    }
+}

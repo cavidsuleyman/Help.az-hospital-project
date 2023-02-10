@@ -1,0 +1,38 @@
+.partner-side{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.partner-side h1{
+    color: #FF731D;
+    font-size: 28px;
+    line-height: 100px;
+}
+
+.partner-logo{
+    width: 90%;
+    height: 150px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.partner-logo img {
+    width: 200px;
+}
+
+@media screen and (max-width: 750px){
+    .partner-logo{
+        height: 300px;
+    }
+    .partner-logo img{
+        width: 150px;
+    }
+}
