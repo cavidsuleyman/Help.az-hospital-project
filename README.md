@@ -4,13 +4,19 @@
 
 # helpUS-hospital-project
 
->I have developed a program that automatically shows the statistics of the countries participating in the World Cup. Here, the participating countries can play with each other, score goals, give teams 3, 1 and 0 points in the "Points Table".
->I use here HTML, CSS, Javascript parameters and React parameters( useState, useRef, useEffect, useReducer, Context)
+>I have developed a Hospital website. I created this project with React and AntDesign. It is full responsive. There are many pages here: 
+  1. Home Page
+  2. About Page
+  3. Service Page
+  4. Contact Page
+  5. Reservation
+  6. Career Page
+  7. Error Page
 
 ## ## RULES OF USE
 
 > **STEP-1:** `https://github.com/cavidsuleyman/Football-Game-ScoreBoard-System.git` <br/>
-> **STEP-2:**  enter the `Football-Game-ScoreBoard-System` folder that appears <br/>
+> **STEP-2:**  enter the `helpUS-hospital-project` folder that appears <br/>
 > **STEP-3:**  open the folder you are in in a text editor <br/>
 > **STEP-4:**  open the folder with `cmd` or `Git Bash` and write `npm start` <br/>
 > **STEP-5:**  to download the project as `.zip`  [here](https://github.com/cavidsuleyman/Football-Game-ScoreBoard-System/archive/refs/heads/master.zip) click <br/>
@@ -24,6 +30,7 @@ This project was developed using the following technologies
 | - | ---------- | --------------------- |
 | 1 | React | Create this system |
 | 2 | VSCode | Text editor used in the project |
+| 3 | AntDesign | React UI library |
 
 
 ## SAMPLE SCREEN APPEARANCE
